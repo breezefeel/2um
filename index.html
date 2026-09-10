@@ -379,7 +379,31 @@
   .shop .deal {
     margin-top: 4px;
     font-size: 12px; font-weight: 700; color: var(--red-deep);
+    line-height: 1.45;
     word-break: keep-all;
+  }
+  .shop-actions {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .shop-actions a {
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 7px 10px;
+    border-radius: 3px;
+    line-height: 1.2;
+  }
+  .shop-actions a.menu {
+    background: var(--teal);
+    color: #fff;
+  }
+  .shop-actions a.tel {
+    background: transparent;
+    color: var(--teal-deep);
+    box-shadow: inset 0 0 0 1.5px rgba(27, 107, 122, 0.35);
   }
 
   .place-card {
@@ -831,15 +855,77 @@
       </div>
       <p class="lead">현장 전단지를 들고 가면 골목 가게에서 혜택을 받을 수 있어요.</p>
       <div class="shop-grid">
-        <div class="shop"><div class="name">투달러스넥앤베이커리</div><div class="deal">음료 500원 할인</div></div>
-        <div class="shop"><div class="name">냉삼상륙작전</div><div class="deal">3,000원 할인</div></div>
-        <div class="shop"><div class="name">두레통닭</div><div class="deal">2만원↑ 포장 시 1천원 할인</div></div>
-        <div class="shop"><div class="name">육회바른연어</div><div class="deal">캔음료 서비스</div></div>
-        <div class="shop"><div class="name">아빠네정육점</div><div class="deal">2만원↑ 구매 시 1천원 할인</div></div>
-        <div class="shop"><div class="name">작전계시</div><div class="deal">포장·매장 특별 혜택</div></div>
-        <div class="shop"><div class="name">새로제과</div><div class="deal">1만원↑ 10% 또는 케이크 할인</div></div>
-        <div class="shop"><div class="name">카페인24</div><div class="deal">무료쿠폰 제공</div></div>
-        <div class="shop"><div class="name">이루다제면소</div><div class="deal">캔음료 서비스</div></div>
+        <div class="shop">
+          <div class="name">이루다제면소</div>
+          <div class="deal">행사 당일 캔음료 무료증정</div>
+          <div class="shop-actions">
+            <a class="menu" href="https://map.naver.com/p/entry/place/1490777414?c=15.00,0,0,0,dh&placePath=%2Fhome%3Ffrom%3Dmap%26fromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202609102341%26locale%3Dko%26svcName%3Dmap_pcv5" target="_blank" rel="noopener noreferrer">메뉴</a>
+            <a class="tel" href="tel:0507-1330-3028">전화 0507-1330-3028</a>
+          </div>
+        </div>
+        <div class="shop">
+          <div class="name">투달러스넥앤베이커리</div>
+          <div class="deal">행사 당일 음료 500원 할인<br>(스무디/쉐이크/프라페 제외)</div>
+          <div class="shop-actions">
+            <a class="menu" href="https://map.naver.com/p/search/%ED%88%AC%EB%8B%AC%EB%9F%AC%20%EC%9E%91%EC%A0%84%EB%8F%99?c=15.72,0,0,0,dh&placePath=%2Fmenu%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202609102336%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%ED%88%AC%EB%8B%AC%EB%9F%AC%20%EC%9E%91%EC%A0%84%EB%8F%99" target="_blank" rel="noopener noreferrer">메뉴</a>
+            <a class="tel" href="tel:0507-1360-2253">전화 0507-1360-2253</a>
+          </div>
+        </div>
+        <div class="shop">
+          <div class="name">냉삼상륙작전</div>
+          <div class="deal">행사 당일 방문시 3,000원 할인</div>
+          <div class="shop-actions">
+            <a class="menu" href="https://map.naver.com/p/entry/place/1290509852?c=15.72,0,0,0,dh&placePath=%2Fmenu%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202609102338%26locale%3Dko%26svcName%3Dmap_pcv5" target="_blank" rel="noopener noreferrer">메뉴</a>
+            <a class="tel" href="tel:0507-1419-3416">전화 0507-1419-3416</a>
+          </div>
+        </div>
+        <div class="shop">
+          <div class="name">두레통닭</div>
+          <div class="deal">행사 당일 2만원이상 방문포장시 1,000원 할인<br>(4시 오픈 6시까지)</div>
+          <div class="shop-actions">
+            <a class="menu" href="https://map.naver.com/p/entry/place/1567729035?c=15.72,0,0,0,dh&placePath=%2Fmenu%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202609102338%26locale%3Dko%26svcName%3Dmap_pcv5" target="_blank" rel="noopener noreferrer">메뉴</a>
+            <a class="tel" href="tel:0507-1344-7377">전화 0507-1344-7377</a>
+          </div>
+        </div>
+        <div class="shop">
+          <div class="name">육회바른연어</div>
+          <div class="deal">행사 당일 캔음료 무료증정</div>
+          <div class="shop-actions">
+            <a class="menu" href="https://map.naver.com/p/entry/place/1389146097?c=15.72,0,0,0,dh&placePath=%2Fmenu%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202609102338%26locale%3Dko%26svcName%3Dmap_pcv5" target="_blank" rel="noopener noreferrer">메뉴</a>
+            <a class="tel" href="tel:032-547-1044">전화 032-547-1044</a>
+          </div>
+        </div>
+        <div class="shop">
+          <div class="name">아빠네정육점</div>
+          <div class="deal">행사 당일 2만원 방문구매시 1,000원 할인</div>
+          <div class="shop-actions">
+            <a class="tel" href="tel:0507-1384-7760">전화 0507-1384-7760</a>
+          </div>
+        </div>
+        <div class="shop">
+          <div class="name">작전계시</div>
+          <div class="deal">포장시: 시그니처 닭죽 300g 제공<br>매장 이용시: 100분 통닭 → 닭죽통닭 또는 양념통닭<br>(재료 소진시 조기종료)</div>
+          <div class="shop-actions">
+            <a class="menu" href="https://map.naver.com/p/search/%EC%9E%91%EC%A0%84%EA%B3%84%EC%8B%9C?c=15.00,0,0,0,dh&placePath=%2Fmenu%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202609102339%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EC%9E%91%EC%A0%84%EA%B3%84%EC%8B%9C" target="_blank" rel="noopener noreferrer">메뉴</a>
+            <a class="tel" href="tel:0507-1327-1772">전화 0507-1327-1772</a>
+          </div>
+        </div>
+        <div class="shop">
+          <div class="name">새로제과</div>
+          <div class="deal">1만원 이상 구매시 10% 할인 또는 케이크 500원 할인 택1</div>
+          <div class="shop-actions">
+            <a class="menu" href="https://map.naver.com/p/entry/place/35357477?c=15.00,0,0,0,dh&placePath=%2Freview%3FadditionalHeight%3D76%26fromPanelNum%3D1%26locale%3Dko%26svcName%3Dmap_pcv5%26timestamp%3D202609102340" target="_blank" rel="noopener noreferrer">리뷰</a>
+            <a class="tel" href="tel:010-4707-6361">전화 010-4707-6361</a>
+          </div>
+        </div>
+        <div class="shop">
+          <div class="name">카페인24</div>
+          <div class="deal">음료 500원 할인 (디저트·디카페인·tea 제외)<br>09:00~18:00 · 팜플렛 지참 필요없음</div>
+          <div class="shop-actions">
+            <a class="menu" href="https://map.naver.com/p/entry/place/2047870948?c=15.00,0,0,0,dh&placePath=%2Fmenu%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202609102340%26locale%3Dko%26svcName%3Dmap_pcv5" target="_blank" rel="noopener noreferrer">메뉴</a>
+            <a class="tel" href="tel:0507-1482-3081">전화 0507-1482-3081</a>
+          </div>
+        </div>
       </div>
     </section>
 
